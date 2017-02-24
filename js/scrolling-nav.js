@@ -16,4 +16,12 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    if ($(window).width() < 450) {
+        $('.UNLogo').attr('src', "imgs/UNLogoS.png");
+        $('.silhouette').attr('src', "imgs/silhouetteS.png");
+    }
+    else {
+        $('.UNLogo').attr('src', "imgs/UNLogo.png");
+        $('.silhouette').attr('src', "imgs/silhouette.png");
+    }
 });

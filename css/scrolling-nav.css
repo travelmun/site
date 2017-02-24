@@ -142,7 +142,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .divArt {
         max-height: 100px;
         height: auto;
@@ -161,5 +161,23 @@ footer {
     
     .about-section, .services-section, .contact-section {
         padding-top: 50px;
+    }
+    
+    .intro-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: url('../imgs/bg1S.png') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .contact-section {
+        height: 100%;
+        padding-top: 150px;
+        text-align: center;
+        background: url('../imgs/bg2S.png') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
