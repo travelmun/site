@@ -63,6 +63,7 @@ section {
 }
 
 .meetings-section {
+    height: 100%;
     text-align: center;
     background: #272a2d;
 }
