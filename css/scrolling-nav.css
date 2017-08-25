@@ -1,7 +1,6 @@
 body {
     font-family: 'Cormorant Garamond', serif;
     color: #fff;
-    overflow-x: hidden;
 }
 
 a {
@@ -14,9 +13,10 @@ a:hover {
 }
 
 section {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 
 .intro-section {
@@ -33,11 +33,13 @@ section {
 }
 
 .services-section {
+    height: 110vh;
     text-align: center;
     background: #2e465e;
 }
 
 .contact-section {
+    height: 110vh;
     text-align: center;
     background: url('../imgs/bg2.png') no-repeat;
     background-size: cover;
@@ -52,10 +54,6 @@ section {
 
 footer {
     background: #272a2d;
-}
-
-#footerText {
-
 }
 
 .titleText {
@@ -80,10 +78,6 @@ footer {
 
 .meetText {
     font-size: 1.75em;
-}
-
-.services-section, .contact-section {
-    height: 110vh;
 }
 
 .location {
@@ -136,16 +130,17 @@ footer {
     }
 }
 
-@media only screen and (max-width: 500px), screen and (max-height: 500px) {
+@media only screen and (max-width: 600px), screen and (max-height: 700px) {
 
     p, .secText, .meetText {
         font-size: 4vmin;
     }
 
     section {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
     .services-section {
