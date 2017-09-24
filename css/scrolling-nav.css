@@ -33,7 +33,7 @@ section {
 }
 
 .services-section {
-    height: 110vh;
+    height: 115vh;
     text-align: center;
     background: #2e465e;
 }
@@ -145,7 +145,7 @@ footer {
 
     .services-section {
         font-size: 3vmin;
-        height: 120vh;
+        height: 125vh;
     }
 
     .location {
