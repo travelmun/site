@@ -90,16 +90,14 @@ footer {
     font-size: 4vh;
 }
 
-.glyphicon-top {
+.glyphicon {
     font-size: 2em;
     margin-top: 5vh;
-    animation: grow 1.8s linear infinite alternate;
-    text-shadow: -1px -1px 15px #fff, 1px -1px 15px #fff;
 }
 
-.glyphicon-bottom {
-    font-size: 1.5em;
-    margin-top: 3vh;
+.down-arrow {
+    animation: grow 1.8s linear infinite alternate;
+    text-shadow: -1px -1px 15px #fff, 1px -1px 15px #fff;
 }
 
 .UNLogo {
