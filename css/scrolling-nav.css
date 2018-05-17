@@ -13,7 +13,7 @@ a:hover {
 }
 
 .link {
-    font-weight: bold; 
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ section {
 }
 
 .contact-section {
-    height: 130vh;
+    height: 170vh;
     text-align: center;
     background: url('../imgs/bg2.png') no-repeat;
     background-size: cover;
@@ -59,6 +59,18 @@ section {
 
 footer {
     background: #272a2d;
+}
+
+.leftFooter {
+  float: left;
+}
+
+.rightFooter {
+  float: right;
+  padding-top: 10px;
+}
+.rightFooterItem {
+  padding-left: 4px;
 }
 
 .titleText {
